@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <link rel="shortcut icon" href="/images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Mr.Catalog Dashboard</title>
+</head>
+<body> 
+    <div class="container">
+        <!-- SideBar Section-->
+        <aside>
+            <div class="toggle">
+                <div class="logo">
+                    <img src="./images/logo.png" alt="">
+                    <h2>Mr.Catalog</h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-round">
+                        close
+                    </span>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a href="/"  class="active">
+                    <span class="material-icons-round">
+                        dashboard
+                    </span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-round">
+                        person_outline
+                    </span>
+                    <h3>Users</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-round">
+                        receipt_long
+                    </span>
+                    <h3>Recent</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-round">
+                        insights
+                    </span>
+                    <h3>Analytics</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-round">
+                        inventory
+                    </span>
+                    <h3>Sale List</h3>
+                    <span class="message-count">14</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-round">
+                        report_gmailerrorred
+                    </span>
+                    <h3>Report</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-round">
+                        settings
+                    </span>
+                    <h3>Setting</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-round">
+                        logout
+                    </span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- SideBar End -->
+        <!-- Main Content -->
+        <main>
+            <h1>Analytics</h1>
+            <!-- Analyses Section-->
+            <div class="analyses">
+                <div class="sales">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Total Sales</h3>
+                            <h1>$65,178</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>+93%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="visits">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Sites Visit</h3>
+                            <h1>5,178</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>+13%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="searches">
+                    <div class="status">
+                        <div class="info">
+                            <h3>Searches</h3>
+                            <h1>8,978</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="percentage">
+                                <p>+33%</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Analyses End -->
+            <!-- Users Section-->
+            <div class="users">
+                <h2>Users</h2>
+                <div class="users-list">
+                    <div class="users-details">
+                        <img src="./images/profile-1.jpg" alt="">
+                        <h2>Kelvin</h2>
+                        <p>2 Hours Ago</p>
+                    </div>
+                    <div class="users-details">
+                        <img src="./images/profile-2.jpg" alt="">
+                        <h2>Jhon Doe</h2>
+                        <p>13 Min Ago</p>
+                    </div>
+                    <div class="users-details">
+                        <img src="./images/profile-3.jpg" alt="">
+                        <h2>Issana</h2>
+                        <p>7 Hours Ago</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Users End -->
+            <!-- Recent Table -->
+            <div class="recent-orders">
+                <h2>Recent Order</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product Name</th>
+                            <th>Brands</th>
+                            <th>Payment</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <a href="#">Show All</a>
+            </div>
+            <!-- Recent End -->
+        </main>
+        <!-- Main Content END -->
+        <!-- Right Section -->
+        <div class="right-section">
+            <!-- Nav Right -->
+            <div class="nav">
+                <button id="menu-btn">
+                    <span class="material-icons-round">
+                        menu
+                    </span>
+                </button>
+                <div class="dark-mode">
+                    <span class="material-icons-round active">
+                        light_mode
+                    </span>
+                    <span class="material-icons-round">
+                        dark_mode
+                    </span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>Hello, <b>Kelvin</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="/images/profile-1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- Nav Right End -->
+            <div class="user-profile">
+                <div class="logo">
+                    <img src="/images/logo.png" alt="">
+                    <h2>Mr.Catalog</h2>
+                    <p>Best Motorcycle Custom in The World!</p>
+                </div>
+            </div>
+            <div class="reminders">
+                <div class="header">
+                    <h2>Reminders</h2>
+                    <span class="material-icons-round">
+                        notifications_none
+                    </span>
+                </div>
+                <div class="notifications">
+                    <div class="icon">
+                        <span class="material-icons-round">
+                            volume_up
+                        </span>
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Yamaha Event</h3>
+                            <small class="text-muted">
+                                Jul - August 2023
+                            </small>
+                        </div>
+                        <span class="material-icons-round">
+                            more_vert
+                        </span>
+                    </div>
+                </div>
+                <div class="notifications deactive">
+                    <div class="icon">
+                        <span class="material-icons-round">
+                            edit
+                        </span>
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>Open At</h3>
+                            <small class="text-muted">
+                                09.00 AM - 17.30AM
+                            </small>
+                        </div>
+                        <span class="material-icons-round">
+                            more_vert
+                        </span>
+                    </div>
+                </div>
+                <div class="notifications add-reminders">
+                    <div>
+                        <span class="material-icons-round">
+                            add
+                        </span>
+                        <h3>Add Reminders</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/orders.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
